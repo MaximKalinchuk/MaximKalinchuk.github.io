@@ -42,18 +42,56 @@ header a{
     text-decoration: none;
     font-size: 17px;
     letter-spacing: 0.2em;
+    padding-bottom: 5px;
+}
+.menu li a:hover {
+    border-bottom: 1px solid #000;
 }
 
 .menu li {
     margin-left: 35px;
     margin-top: 11px;
+
 }
 
 .name {
     font-size: 37px;
     font-weight: normal;
-    margin-top: 16px;
+    padding-top: 16px;
     letter-spacing: 0.07em;
     margin-left: 383px;
     
+}
+
+.welcome {
+    margin-top: 162px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.description {
+    margin-top: 20px;
+    margin-left: 246px;
+    margin-right: 246px;
+}
+
+.question {
+    font-style: italic;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 19px;
+    font-style: italic;
+}
+
+.footer {
+    margin-top: 320px;
+    text-align: center;
+}
+
+img {
+    margin-right: 10px;
 }
