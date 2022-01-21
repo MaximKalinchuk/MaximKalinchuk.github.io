@@ -2,11 +2,22 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat';
-    color: #000;
+    color: #333;
     font-size: 19px;
 }
 
+.man {
+    display: block;
+    margin-top: 38px;
+    margin-right: 0px;
+    text-align: center;
+}
 
+.arrow {
+    display: block;
+    text-align: right;
+    margin-right: 495px;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	padding: 0;
@@ -27,7 +38,7 @@ ul, li {
 }
 
 header a{
-    color: black;
+    color: #333;
 }
 
 
@@ -45,7 +56,7 @@ header a{
     padding-bottom: 5px;
 }
 .menu li a:hover {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #333;
 }
 
 .menu li {
@@ -64,7 +75,7 @@ header a{
 }
 
 .welcome {
-    margin-top: 162px;
+    margin-top: 38px;
     text-align: center;
     font-weight: lighter;
     font-size: 30px;
@@ -92,6 +103,6 @@ p {
     text-align: center;
 }
 
-img {
+.container img {
     margin-right: 10px;
 }
