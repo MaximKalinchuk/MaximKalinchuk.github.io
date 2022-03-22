@@ -106,3 +106,47 @@ p {
 .container img {
     margin-right: 10px;
 }
+
+.projectHeader {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.projects {
+    display: flex;
+    margin-left: 500px;
+}
+
+.counter {
+    display: block;
+    width: 288px;
+    height: 343px;
+    background-color: white;
+    letter-spacing: 4px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 98px;
+}
+
+.counter h3{
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.counter img{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.contacts {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 110px;
+}
