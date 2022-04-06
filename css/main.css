@@ -101,6 +101,7 @@ p {
 .footer {
     margin-top: 320px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .container img {
@@ -119,6 +120,16 @@ p {
     margin-left: 500px;
 }
 
+.projects-2 {
+    display: flex;
+    margin-left: 500px;
+
+}
+
+.projects-2 .counter {
+    margin-top: 45px
+}
+
 .counter {
     display: block;
     width: 288px;
@@ -133,10 +144,23 @@ p {
     margin-left: 98px;
 }
 
+.counter p{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+
+.counter h5{
+    color: black;
+    margin-left: 35px;
+    display: inline-block;
+}
+
 .counter h3{
     color: black;
     text-align: center;
-    padding-top: 15px;
 }
 
 .counter img{
