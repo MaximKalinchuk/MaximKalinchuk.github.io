@@ -117,20 +117,11 @@ p {
 
 .projects {
     display: flex;
-    margin-left: 500px;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
-.projects-2 {
-    display: flex;
-    margin-left: 500px;
-
-}
-
-.projects-2 .counter {
-    margin-top: 45px
-}
-
-.counter {
+.projectBlock {
     display: block;
     width: 288px;
     height: 343px;
@@ -141,10 +132,9 @@ p {
     border-style: solid;
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: 98px;
 }
 
-.counter p{
+.projectBlock p{
     color: black;
     text-align: center;
     font-size: 18px;
@@ -152,18 +142,18 @@ p {
 
 }
 
-.counter h5{
+.projectBlock h5{
     color: black;
     margin-left: 35px;
     display: inline-block;
 }
 
-.counter h3{
+.projectBlock h3{
     color: black;
     text-align: center;
 }
 
-.counter img{
+.projectBlock img{
     margin-top: 10px;
     margin-left: 2px;
 }
