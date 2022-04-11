@@ -14,12 +14,6 @@ body {
     text-align: center;
 }
 
-.arrow {
-    display: block;
-    text-align: right;
-    margin-right: 495px;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	margin: 0;
@@ -131,6 +125,11 @@ p {
     margin-top: 10px;
 }
 
+.arrow {
+    display: flex;
+    margin: auto;
+    text-align: right;
+}
 
 .container img {
     margin-right: 10px;
@@ -156,9 +155,9 @@ p {
     background-color: white;
     letter-spacing: 4px;
     border-color: rgb(0, 0, 0);
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-top: 20px;
 }
 
