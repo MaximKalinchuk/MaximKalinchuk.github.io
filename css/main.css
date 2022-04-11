@@ -4,6 +4,8 @@ body {
     font-family: 'Montserrat';
     color: #333;
     font-size: 19px;
+    background: url('./img/sacura.mp4');
+    background-size: cover;
     
 }
 
@@ -126,6 +128,7 @@ p {
 }
 
 .arrow {
+    width: 100px;
     display: flex;
     margin: auto;
     text-align: right;
@@ -227,3 +230,14 @@ form {
       height: 150px;
       resize: none;
   }
+
+.backgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
