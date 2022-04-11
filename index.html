@@ -92,19 +92,43 @@
         </div>
     </section>
 </div>
-    <section class="contacts">
-        <h1 id="contacts" class="contacts">КОНТАКТЫ</h1>
-        <h4></h4>
-    </section>
 </main>
     <footer id="footer" class="footer">
-        <div class="container">
-            <a href="https://www.instagram.com/"><img src="img/inst_logo.svg" ></a>
-            <a href="https://github.com/MaximKalinchuk"><img src="img/github_logo.svg"></a>
-            <a href="https://ru.hexlet.io/u/ashby"><img src="img/hexlet_logo.svg"></a>
-            <a href="https://slack.com/intl/ru-ru/"><img src="img/slack_logo.svg"></a>
-        </div>
+        <h1 id="contacts" class="contacts">КОНТАКТЫ</h1>
+        <section class="contacts">
+            <div id="contacts">
+            <p><img src="img/mail.svg"><b>Почта:</b> kalinchuk.maxim@mail.ru</p>
+            <p><img src="img/phone.svg"><b>Номер:</b> 7-987-395-04-56</p>
+            </div>
+            <div class="container">
+                <a href="https://www.instagram.com/"><img src="img/inst_logo.svg" ></a>
+                <a href="https://github.com/MaximKalinchuk"><img src="img/github_logo.svg"></a>
+                <a href="https://ru.hexlet.io/u/ashby"><img src="img/hexlet_logo.svg"></a>
+                <a href="https://slack.com/intl/ru-ru/"><img src="img/slack_logo.svg"></a>
+            </div>
+        </section>
+        <section class="mass">
+            <form id="mass" action="/forms/mass.txt">
+                <fieldset>
+                    <legend>Напиши мне:</legend>
+                    <br>
+                    <label>
+                        <input type="text" name="name" placeholder="Введите ваше имя">
+                    </label>
+                    <label>
+                        <input type="text" name="name" placeholder="Введите вашу почту">
+                    </label>
+                    <br><br>
+                    <label>
+                        <textarea type="text" name="mass" placeholder="Введите текст сообщения"></textarea>
+                    </label>
+                    <br>
+                    <br>
+                    <button>Отправить</button>
+                </fieldset>
+            </form> 
+        </section>
     </footer>
-    <script src="src/alert.js"></script>
+    <script src="src/index.js"></script>
 </body>
 </html>
