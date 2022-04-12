@@ -192,7 +192,8 @@ p {
 form {
     text-align: center;
     width: 500px;
-    border: 0px
+    border: 0px;
+    background: white;
   }
 
   button {
@@ -240,4 +241,5 @@ form {
     width: auto;
     height: auto;
     z-index: -9999;
+    opacity: 0.4;
 }
