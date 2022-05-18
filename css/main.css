@@ -201,7 +201,7 @@ p {
 .projectBlock button {
     padding: 10px 24px;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     color: #fff;
     font-weight: bold;
   
@@ -217,20 +217,17 @@ p {
 .projectBlock button:hover {
     padding: 10px 24px;
     border: none;
-    border-radius: 7px;
+    border-radius: 4px;
     color: #fff;
     font-weight: bold;
   
-    background: #00356e;
+    background: #004997;
   
     cursor: pointer;
     text-align: right;
     position:absolute; /* добавили */
 	bottom: 20px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    border: 1px;
-    border-radius: 2px;
-
 }
 
 .projectBlock img{
