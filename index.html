@@ -23,7 +23,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#projectHeader">
+                        <a href="#projects">
                             ПРОЕКТЫ
                         </a>
                     </li>
@@ -50,7 +50,7 @@
                 <div class="question">О чём это?</div>
                 <p>
                     На этом скромном, на мой взгляд, сайте я буду отслеживать свой прогресс как программиста. 
-                    Здесь вы можете посмотреть мои завершённые проекты и список литературы, которую я когда-то читал.
+                    Здесь вы можете посмотреть мои завершённые проекты и те, которые сейчас в разработке.
                 </p>
                 <div class="question">Почему IT?</div>
                 <p>
@@ -62,74 +62,57 @@
                     На данный момент я прохожу обучение в онлайн-школе программирования Hexlet. 
                     Ребята обучают всех желающих освоить эту интересную профессию.
                 </p>
+                <div class="question">Что сейчас учишь?</div>
+                <p>
+                    Сейчас активно изучаю <a href="http://reactjs.org/" style="text-decoration: none">React</a>. Планирую использовать его в дальнейших проектах.
+                </p>
             </div>
         </div>
     </section>
     <div class="container">
-    <a href="#projectHeader"><img src="img/arrow.png" class="arrow"></a>
-    <section id="projectHeader" class="projects description">
+    <a href="#projects"><img src="img/arrow.png" class="arrow"></a>
+            <h1 id="contactsHeader" class="contactsHeader">Проекты</h1> 
+    <section id="projects" class="projects description">
         <div class="projectBlock">
-            <img src="img/js-icon.svg">
-            <h5>Проект #1</h5>
-            <h3>ИГРЫ РАЗУМА</h3>
-            <p>«Игры разума» — набор из пяти консольных игр, 
-                построенных по принципу популярных мобильных приложений для прокачки мозга. </p>
+            <img src="img/test.svg">
+            <h6>Игры разума</h6>
+            <p>Набор из пяти консольных игр, построенных по принципу популярных мобильных приложений. </p>
+                <button onClick="location.href='https://github.com/MaximKalinchuk/backend-project-lvl1'">Подробнее</button>
         </div>
         <div class="projectBlock">
-            <img src="img/js-icon.svg">
-            <h5>Проект #2</h5>
-            <h3>Вычислитель отличий</h3>
-            <p>Вычислитель отличий – программа, определяющая разницу между двумя структурами данных.</p>
+            <img src="img/test.svg">
+            <h6>Вычислитель отличий</h6>
+            <p>Вычислитель отличий - программа, определяющая разницу между двумя структурами данных.</p>
+            <button onClick="location.href='https://github.com/MaximKalinchuk/frontend-project-lvl2'">Подробнее</button>
         </div>
         <div class="projectBlock">
-            <img src="img/js-icon.svg">
-            <h5>Проект #3</h5>
-            <h3>RSS агрегатор</h3>
+            <img src="img/test.svg">
+            <h6>RSS агрегатор</h6>
+            <p>Сервис, предназначенный для описания лент новостей, анонсов статей и других материалов.</p>
+            <button onClick="location.href='https://github.com/MaximKalinchuk/frontend-project-lvl3'">Подробнее</button>
+        </div>
+        <div class="projectBlock">
+            <img src="img/test.svg">
+            <h6>React Study</h6>
             <p>В процессе...</p>
-        </div>
-        <div class="projectBlock">
-            <img src="img/js-icon.svg">
-            <h5>Проект #4</h5>
-            <h3>Чат (Slack)</h3>
-            <p>В процессе...</p>
+            <button>Подробнее</button>
         </div>
     </section>
 </div>
 </main>
     <footer id="footer" class="footer">
-        <h1 id="contacts" class="contacts">КОНТАКТЫ</h1>
+        <h1 id="contactsHeader" class="contactsHeader">КОНТАКТЫ</h1>
         <section class="contacts">
             <div id="contacts">
             <p><img src="img/mail.svg"><b>Почта:</b> kalinchuk.maxim@mail.ru</p>
             <p><img src="img/phone.svg"><b>Номер:</b> 7-987-395-04-56</p>
             </div>
             <div class="container">
-                <a href="https://www.instagram.com/"><img src="img/inst_logo.svg" ></a>
+                <a href="https://www.instagram.com/kalinchikmaxim"><img src="img/inst_logo.svg" ></a>
                 <a href="https://github.com/MaximKalinchuk"><img src="img/github_logo.svg"></a>
                 <a href="https://ru.hexlet.io/u/ashby"><img src="img/hexlet_logo.svg"></a>
                 <a href="https://slack.com/intl/ru-ru/"><img src="img/slack_logo.svg"></a>
             </div>
-        </section>
-        <section class="mass">
-            <form id="mass" action="/forms/mass.txt">
-                <fieldset>
-                    <legend>Напиши мне:</legend>
-                    <br>
-                    <label>
-                        <input type="text" name="name" placeholder="Введите ваше имя">
-                    </label>
-                    <label>
-                        <input type="text" name="name" placeholder="Введите вашу почту">
-                    </label>
-                    <br><br>
-                    <label>
-                        <textarea type="text" name="mass" placeholder="Введите текст сообщения"></textarea>
-                    </label>
-                    <br>
-                    <br>
-                    <button>Отправить</button>
-                </fieldset>
-            </form> 
         </section>
         
     </footer>
